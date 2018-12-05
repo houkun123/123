@@ -1,0 +1,65 @@
+<!Doctype html>
+    <html lang = "zh">
+ <head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+    <body>
+<!--收集 用户输入：发送或者提交给服务器
+    输入：内容（文本、密码文本)、单选框、多选框、下拉框
+    提交：提交按钮  浏览器发送给服务器：http协议：超文本传输协议
+    请求、应答 浏览器主动发送请求——》服务器 接收——》处理——》返回给浏览器——》根据结果展示
+    get post请求-->
+    <!--注册页面-->
+    <form action="" method="POST">       <!--from表单-->
+        用户名:<br><input type="text" name="usr"><br>  <!--input输入内容 type一个标签属性 text文本内容-->
+        密码:<br><input type="password" name="pas"><br> <!--pass密码文本类型--> 
+        性别<br><input type="radio" name="sex" value="men">男   <!--radio单选框-->
+                <input type="radio" name="sex" value="women">女       
+                <input type="radio" name="sex">未知 <br>
+                
+         兴趣：<input type="checkbox" name="ckb" value="book"> 看书<!--checkbox复选框-->
+               <input type="checkbox" name="ckb" value="eat">    吃饭   
+               <input type="checkbox" name="ckb" value="play"> 打66
+        <br>
+        选择城市：<select name="city">              <!--select下拉框标签-->
+                    <option value="shanghai">上海</option> 
+                    <option value="beijing">北京</option>
+                    <option value="shenzhen">深圳</option>
+                    <option value="guangzhou">广州</option> <!--option 下拉内容标签-->
+        </select>
+            选择文件<input type="file" name="wenjian"><br>
+            <br>滑动<input type="color" name="col" value="color">
+            <input type="date" name="col" value="color">
+            <input type="reset" name="chongzhi">
+            <input type="button" name="chongzhi" value="123123">
+            <button><strong>OK</strong>, I do.</button>
+            <button style="width:150px;height:50px;border:0;"></button>
+        <input type="submit"><!--submit提交按钮--> 
+        <br><br><br><br><br><br>
+            姓名：<input type="text" name="usr" ><br>
+            生日：<input type="date" name="date"   value="date"><br>
+            喜欢的颜色:<input type="color" name="col" value="color"><br>
+            个性签名：
+            <textarea rows="3" cols="20" style="width:150px;height:100px;"></textarea>
+            <br><select name="state">
+                <option value="zhongguo">中国</option>
+                <option value="meiguo">美国</option>
+            </select><br>
+            <input type="reset" name="chongzhi" >
+            <input type="submit" name="queren" >
+
+
+
+
+
+
+        
+        
+    </form>
+    
+      
+</body>
+  </html>
+
+  

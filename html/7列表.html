@@ -1,0 +1,52 @@
+<!Doctype html>
+    <html lang = "zh">
+ <head>
+    <meta charset="utf-8">
+    <title>列表</title> <!--无序列表：内容列表 ui+li 无顺序关系-->
+                        <!--有序列表：内容列表：ol+ui 有顺序关系-->
+                        <!--自定义列表：内容标题+内容 列表 dl+dt+dd-->
+</head>                 <!--style="list-style-type:(circle空心)(square方块)(取消点none)无序列表前缀-->
+      <body>
+     <ul style="list-style-type:none">
+        <li>苹果</li>
+        <li>香蕉</li>
+        <li>香蕉</li>
+     </ul >
+     <ol type="i" ><!--type：有五个属性值：1、a、A、i、I(罗马数字)，表示列表前缀的格式； 
+        start：属性值位数字，表示从type类型的第几个数字开始，有点绕，比如当你选的type=“a”,start=“3”-->
+        <li>蔬菜</li>
+        <li>水果</li>
+        <li>肉</li>
+        </ol>
+    
+     <d1>    
+         <dt>好吃排行榜</dt>
+        </d1>
+         <ol>
+            <li>蔬菜
+            <ul style="list-style-type:circle">
+                <li>空心菜</li>
+                <li>萝卜</li>
+                <li>鸡毛菜</li>
+            </ul></li>
+            
+            <li>水果
+            <ul style="list-style-type:square">
+                <li>苹果</li>
+                <li>香蕉</li>
+                <li>西瓜</li>
+            </ul></li>
+            <li>肉
+            <ul style="list-style-type:none">
+                <li>苹果</li>
+                <li>香蕉</li>
+                <li>西瓜</li>
+            </ul></li>
+                  
+         </ol>
+         
+        
+      
+     
+</body>
+  </html>

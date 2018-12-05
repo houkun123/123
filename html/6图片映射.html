@@ -1,0 +1,24 @@
+<!Doctype html>
+    <html lang = "zh">
+ <head>
+    <meat charset="utf-8">
+    <title>图片映射</title>
+    
+</head>
+      <body>
+
+     <img src="testimg.jpg" width="800px" height="400px" usemap="#testimgmap"><!--usemap使用这个地图-->
+     <map name="testimgmap"> <!--map地图-->
+        <area shape="circle" coords="195,424,50" href="http://www.mi.com" target="_blank" alt=""> <!--area可点击区域-->
+        <area shape="rect"  coords="466,233,536,284">
+        <area shape="rect"  coords="447,201,568,316"href="http://www.baidu.com" target="_blank" alt="" >
+        
+        
+        <!--shape定义位置的形状--><!--coords坐标点-->
+        <!--circle圆的（中心点、半径）、rect矩形（左上角的坐标和右下角）、poly多边形-->
+        <!--width 宽、height 高、 直接在图片链接后面添加-->
+     </map>
+     
+
+</body>
+  </html>
