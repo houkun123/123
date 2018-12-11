@@ -1,0 +1,77 @@
+/*原理
+1.优先原则，后解析的内容，会覆盖之前解析的内容
+2.继承原则，嵌套里面的标签 拥有外部的标签的某些样式
+        子元素可以继承父元素的的属性
+继承原则：
+1.跟文本 文字相关的样式，属性可以被继承 其他的-》不可以被继承
+*/
+/* div.test {
+    color: red;
+    border:1px solid yellow;
+}
+p {
+    border: 1px solid yellow;
+} */
+/*
+2.块级元素  宽不被设置的情况下-》继承父元素
+    高内容决定*/
+div.test {
+    width: 200px;
+    height: 200px;
+    
+}
+div,p {
+    border: 1px solid yellow;
+}
+/*
+ 优先原则：-》选择器
+ 1.同一个选择器，从上往下执行*/
+/* div {
+    color: red;
+    color: green
+    
+}
+2.同一类型的选择器，从上往下执行 */
+
+/*div {
+    background-color: red;
+}
+div {
+    background-color: green;
+}
+.bg1{
+    background-color: yellow
+}
+.bg2{
+    background-color: blue 
+}
+3.不同类型的选择器：优先级
+先解析 低优先级的选择器-》高优先级选择器
+* < div < class < id*/
+/*.bg1 {
+    background-color: red
+}
+div {
+    background-color: blue
+}
+
+4.外部样式 内部样式 合并之后一起解析
+然后相同的以内部样式为主导*/
+/* div {
+    background-color: yellow;
+    font-size: 100px;
+} 
+
+5.内联样式
+外部＋内部解析完之后，才解析内联样式*/
+/* div {
+    background-color: yellow;
+    font-size: 30px;
+} 
+6.加了important字段，最后执行*/
+/* div {
+    background-color: yellow!important;
+}
+div {
+    background-color:goldenrod
+} */

@@ -1,0 +1,51 @@
+p {
+    /*字之间的间距
+        letter-spacing*/
+        /* letter-spacing: 0px; */
+        
+
+       /*none 什么都没有 默认
+        line-through;一条线穿过了文字
+        overline 头顶线
+        underline*/ 
+        /* text-decoration: line-through; */
+        /*text-align文本对其方式：center居中 left左对齐 right右对齐*/
+       background-color: yellow;
+        width: 250px;
+       /*height: 150px; 字体所在行宽度高度 */
+       /*缩进 text-indent*/
+       /* text-indent: 60px; */
+       /*英文大小写转换 text-transform:
+       uppercase全大写 lowercase全小写
+       cpaitalize首字母大写；*/
+        /* text-transform: capitalize;
+       width: 200px;  */
+       /*white-space: nowrap;wihte-space不换行
+       overflow: hidden;把内容多出来的隐藏
+       text-overflow: ellipsis;把多出来的内容替换成省略号*/
+       white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+    }
+img {
+        width: 100px;  
+        /*vertical-align: top;*/
+        
+        float: left; 
+        
+        /*vertical-align垂直对齐 top center bottom*/
+    }
+.test1 {
+    /* letter-spacing: 10px; */
+    direction: none; /*字体设置从左还是从右，right to left*/
+    /* text-decoration: overline; */
+    /* text-align: justify; */
+    text-transform: lowercase;
+}
+.test2 {
+    /* letter-spacing: 5px; */
+    /* text-decoration: underline; */
+    /* text-align: left; */
+    text-transform:uppercase;
+}

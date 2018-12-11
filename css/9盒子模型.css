@@ -1,0 +1,45 @@
+/*盒子
+所有的元素->矩形
+鞋盒
+内容：鞋子  div1 div2
+内边距：报纸、空间
+盒子柜:鞋盒 纸盒子
+外边距：鞋盒和鞋盒之间的距离*/
+
+.box1 {
+    /*盒子外框*/
+    /* border: 5px solid black; */
+    /*内边距
+    上下设置 左右设置
+    上 左右 下
+    上 右 下 左
+    */
+    /* padding: 10px;
+    /* padding: 20px 50px 60px; */
+    
+    /* padding: 20px 30px 40px 50px; */
+    /*外边距
+    margin上下重叠
+    1.平级的元素
+       1.float
+       2.inline-block
+    2.嵌套关系
+       1.border
+       2.padding
+       3.overflow*/
+    margin: 30px;
+    background-color: yellow;
+    overflow: hidden;
+    /* float: left; */
+}
+ /* div{  
+        display: inline-block;
+        width: 800px;
+        border:1px solid black;
+
+} */
+.box2 {
+    margin: 60px;
+    border: 5px solid black;
+    background-color: blue
+}

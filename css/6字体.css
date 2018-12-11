@@ -1,0 +1,12 @@
+body {
+    /* font-family: "微软雅黑";
+    font-size: 40px;
+    font-weight: bold;  /*字体粗细 normal正常字体；lighter细字体；bold粗*/
+    /*font-style: italic;   字体的形状*/
+    /*font:style weight size/line-height font-family;*/
+    /* font: italic bold 40px/80px "微软雅黑" ; */
+    /* line-height: 80px; 行高*/
+}
+p {
+    font: italic bold 40px/80px "微软雅黑" ;
+} 

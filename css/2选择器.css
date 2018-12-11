@@ -1,0 +1,51 @@
+/*div{
+    background-color: red;
+}*/
+
+/* 作用：通过选择器-》html元素   样式-》元素
+
+4个大类：
+基本选择器
+组合选择器
+属性选择器
+伪元素选择器
+
+基本选择器
+通配符（对所有标签都会作用） 
+标签选择器 id选择器 class 
+*/
+/*
+* {
+    border: 1px solid black border 外边框
+} */
+ /* div {
+    border: 1px solid black
+
+} */
+/* p {
+    border: 1px solid black
+
+} */ 
+/*id选择器  唯一性 类似身份证号码
+1.每个人有而且仅有一个
+2.人和人之间身份证不一样
+
+css：1.一个号码
+元素只能有1个id
+2.不唯一
+
+元素之间id不能相同，标签可以相同*/ 
+/* #test {
+    font-size: 70px
+}
+#test2{
+    color: red
+} */
+/*class选择器
+与id选择器不同的是不唯一性*/
+.test {
+    font-size: 100px;   
+}
+.test2 {
+    color: red;
+}

@@ -1,0 +1,77 @@
+/*把基本选择器通过特殊符号串在一起，有特殊意义
+
+分组*/
+/* div,p {
+    background-color:green;
+}
+p{
+    background-color: green;
+    color: red;
+    font-size: 80px;
+} */
+
+/*嵌套选择器
+空格隔开
+div p ->p(div)*/
+
+/* div,p{
+    background-color: green;
+    color: red;
+    font-size: 80px;
+} */
+
+/*子选择器
+div >p p(父标签)*/
+/* div>p{
+    background-color: green;
+    color: red;
+    font-size: 80px;
+} */
+/*相邻同级别选择器
+div+p -> p(div)*/
+/* div+p{
+    background-color: green;
+    color: red;
+    font-size: 80px;
+}  */
+
+/*属性选择器
+基本属性[对应属性]
+[属性=值]绝对
+[属性~=值]相似
+[属性^=值]开始的
+[属性$=值]结束
+*/
+p[title~=test]{
+    background-color: green;
+    color: red;
+    font-size: 80px;
+} 
+
+/*伪元素选择器
+伪=假的、元素
+开始：before
+结束：after*/
+/* p::before {
+    content: "before";
+    font-size: 80px;
+}
+p::after {
+    content: "after";
+    font-size: 150px;
+}
+p {
+    background-size: 200px;
+    background-color:green;
+    font-size: 100px;
+    color: red;
+} */
+
+/*块元素
+第一个字母：first-letter
+第一行：first-line*/
+
+/* p::first-letter {
+    color: red;
+    font-size: 100px;
+} */

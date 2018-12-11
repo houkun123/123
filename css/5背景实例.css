@@ -1,0 +1,15 @@
+body {
+    /* background-color: red; */
+    /* background-image: url('logo.png'); */
+    /*background-repeat: no-repeat;*//*设置图片是否自动平铺*/
+
+    /* background-attachment: fixed;滚动背景不动 */
+    /* background-position: center bottom  ;设置图片位置 */
+    /* x:left center right
+    y:top center bottom */
+   /* height: 2000px; 设置图片高度*/
+   background: 
+   url('logo.png')
+   ;
+
+}

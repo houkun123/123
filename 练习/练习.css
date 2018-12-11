@@ -1,0 +1,15 @@
+
+.box1 {
+   
+    /* border: 3px solid black; */
+    /* padding: 20px 50px; */
+    background:yellow;
+    margin:80px;
+    border:1px solid black;
+}
+.box2 {
+    border: 3px solid black;
+    /* padding: 30px; */
+    margin:30px;
+    background:red;
+}

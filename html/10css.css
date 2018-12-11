@@ -1,0 +1,16 @@
+.daohang {
+   background:red;
+   height: 100px;
+}
+.caidan {
+    background:yellow;
+    width:20%;
+    float: left;
+    height: 300px
+}
+.neirong {
+    background:blue;
+    width: 80%;
+    float: left;
+    height: 300px
+}

@@ -1,0 +1,105 @@
+ /* div {
+    
+    border: 1px solid black;
+    background-color: yellow;
+    width:1200px;
+    height:600px;
+    
+    大框先设计和排列好，再往框里加内容或者小框
+    
+}  */
+/* div {
+    background:green;
+    border: 1px solid black;
+    margin:20px;
+}
+.div1 {
+    border: 1px solid black;
+    background: red;
+    
+    width:200px;
+    height: 200px;
+}
+.div2,.div3,.div4,.div5 {
+    float: left;
+    border: 1px solid black;
+    background: red;
+    
+    width:200px;
+    height: 200px;
+    
+}
+.zongkuang::after {
+    content: "";
+    display: block;
+    clear: both;
+} */
+/* div {
+    width:1210px;
+    height: 600px;
+    border: 1px solid black;
+}*/
+.dakuang {
+    float: left;
+    border: 1px solid black;
+    width:400px;
+    height: 600px;
+}
+.xiaokuang3 {   
+    border: 1px solid black;
+    float: left;
+    width:400px;
+    height: 600px;
+} 
+
+.div2,.div3,.div4 {
+    
+    margin:0px;
+    border:1px solid black;
+    width:400px;
+    height:200px;
+}
+.xiaokuang3::before {
+    content:"";
+    display: block;
+    clear: both;
+}
+.zuiyoukuang {
+    float: left;
+    background:red;
+    border: 1px solid black;
+    width:600px;
+    height: 700px;
+
+}
+
+
+
+/* .div2,.div3,.div4,.div5 {
+    float: left;
+    background-color: yellow;
+    width: 100px;
+    height: 150px; */
+/* .div6 {
+    clear: both;
+} */
+
+/* 伪元素 清浮动 
+ .cond::after {
+    content: " ";
+    display: block;
+    clear: both;
+}*/
+
+/* .cond::after {
+    content: " ";
+    display: table;
+    clear: both;
+    
+}
+
+.cond::before {
+    content: " ";
+    display: table;
+    
+}  */

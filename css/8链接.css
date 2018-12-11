@@ -1,0 +1,41 @@
+
+/*伪类
+初始状态
+被访问的状态
+鼠标移动的状态
+点击状态*/
+/* 
+a:link { 未访问过
+    color: blue;
+}
+a:visited {访问过
+    color: yellow;
+}
+a:hover {鼠标在链接
+    color: red;
+    font-size: 30px;
+}
+a:active {鼠标点击
+    color: green;
+} */
+ul {
+    list-style-type: none ;
+    font-size: 50px;
+}
+li {
+    background-image: url(logo.png);
+    height:50px;
+    background-repeat: no-repeat;
+    width:50px;    
+    
+    
+}
+/*none:不使用符号
+disc：实心圆
+circle：空心圆
+square：实心方块
+demical：阿拉伯数字
+lower-alpha：小写英文字母
+upper-alpha：大写英文字母
+lower-roman：大写罗马数字
+upper-roman：大写罗马数字

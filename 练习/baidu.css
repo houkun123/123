@@ -1,0 +1,61 @@
+
+.cond {
+    margin: 10px;
+}
+.daohang {
+    float: left;
+    width: 243px;
+    height: 461px;
+    border: 1px solid black;
+}
+.yemian {
+    float: left;
+    width: 991px;
+    height: 461px;
+    border: 1px solid black;
+
+}
+.cond::after {
+    content: " ";
+    display: block;
+    clear: both;
+  
+}
+
+
+.lianjie {
+    margin: 10px;
+    float: left;
+    width: 228px;
+    height: 172px;
+    border: 1px solid black;
+    
+}
+.gg1 {
+    margin: 10px;
+    float: left;
+    width: 317px;
+    height: 172px;
+    border: 1px solid black;
+
+}
+.gg2 {
+    margin: 10px;
+    float: left;
+    width: 317px;
+    height: 172px;
+    border: 1px solid black;
+}
+
+.gg3 {
+    margin: 10px;
+    float: left;
+    width: 317px;
+    height: 172px;
+    border: 1px solid black;
+}
+.cond1::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
